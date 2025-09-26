@@ -1,7 +1,6 @@
 package com.example.ecommerce;
-
-import com.example.ecommerce.model.Product;
-import com.example.ecommerce.repository.ProductRepository;
+// import com.example.ecommerce.model.Category;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,7 +9,7 @@ import org.springframework.boot.test.web.client.TestRestTemplate;
 import org.springframework.boot.test.web.server.LocalServerPort;
 import org.springframework.test.context.ActiveProfiles;
 
-import static org.junit.jupiter.api.Assertions.*;
+import com.example.ecommerce.repository.ProductRepository;
 
 /**
  * Unit test for simple App.
